@@ -7,7 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "MDCalendar.h"
+#import "NSDate+MDCalendar.h"
+#import "UIColor+MDCalendarDemo.h"
 
-@interface NDViewController : UIViewController
+@interface NDViewController : UIViewController <MDCalendarDelegate>
+@property (weak, nonatomic) IBOutlet UIView *secondView;
+@property MDCalendar *calendarView;
 
 @end
