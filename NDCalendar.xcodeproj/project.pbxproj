@@ -123,7 +123,7 @@
 				A00354C619B9BE3E004EB397 /* DMLazyScrollView.h */,
 				A00354C719B9BE3E004EB397 /* DMLazyScrollView.m */,
 			);
-			path = DMLazyScrollView;
+			name = DMLazyScrollView;
 			sourceTree = "<group>";
 		};
 		A0952EBA19B9A97F00E6C693 = {
@@ -161,7 +161,6 @@
 		A0952ECC19B9A97F00E6C693 /* NDCalendar */ = {
 			isa = PBXGroup;
 			children = (
-				A00354C519B9BE3E004EB397 /* DMLazyScrollView */,
 				A0994C7219BF16FB0074FD30 /* Model */,
 				A00354C319B9BE3E004EB397 /* DateUtil.h */,
 				A00354C419B9BE3E004EB397 /* DateUtil.m */,
@@ -223,6 +222,7 @@
 		A0994C7219BF16FB0074FD30 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				A00354C519B9BE3E004EB397 /* DMLazyScrollView */,
 				A0994C7319BF173E0074FD30 /* MDCalendar.h */,
 				A0994C7419BF173E0074FD30 /* MDCalendar.m */,
 				A0994C7519BF173E0074FD30 /* NSDate+MDCalendar.h */,
